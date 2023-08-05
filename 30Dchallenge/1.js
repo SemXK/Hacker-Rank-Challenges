@@ -25,13 +25,11 @@ function main() {
     var s = "HackerRank "
     // Declare second integer, double, and String variables.
     // Read and save an integer, double, and String to your variables.
-    console.log(16);
-    console.log((8).toFixed(1));
-    console.log(s + input_stdin_array[2]);
+    console.log(Number(input_stdin_array[0]) + i)
     // Print the sum of both integer variables on a new line.
-
+    console.log((Number(input_stdin_array[1]) + d).toFixed(1))
     // Print the sum of the double variables on a new line.
-
+    console.log(s + input_stdin_array[2])
     // Concatenate and print the String variables on a new line
     // The 's' variable above should be printed first.
 
